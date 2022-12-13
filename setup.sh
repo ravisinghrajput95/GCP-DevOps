@@ -1,5 +1,6 @@
 #!/bin/bash
-PROJECT_ID= <paste here your project ID>
+
+PROJECT_ID= <enter here your project ID>
 echo ${PROJECT_ID}
 
 #enable apis for cloud build, deploy, artifact registry and container
@@ -65,4 +66,3 @@ gcloud artifacts repositories \
      --repository-format=docker \
      --location=us-central1 \
      --description="Docker repository"
-
